@@ -1,0 +1,33 @@
+{
+  "name": "zoom_clone",
+  "version": "1.0.0",
+  "description": "WebRTC와 Websockets를 활용한 줌 클론",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohjooyeong/zoom_clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ohjooyeong/zoom_clone/issues"
+  },
+  "homepage": "https://github.com/ohjooyeong/zoom_clone#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon"
+  }
+}
