@@ -1,15 +1,10 @@
 import express from "express";
 import path from "path";
 
-const __dirname = path.resolve();
-
 const app = express();
-console.log(path.join(__dirname, "/public"));
-console.log(__dirname);
-console.log(__dirname + "/src/public");
 
 app.set("view engine", "pug");
-app.set("views", __dirname + "/src/views");
+app.set("views", __dirname + "/views");
 app.use("/public", express.static(__dirname + "/public"));
 app.get("/", (req, res) => res.render("home"));
 
